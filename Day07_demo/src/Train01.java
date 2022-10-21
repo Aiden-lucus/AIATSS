@@ -19,7 +19,7 @@ public class Train01 {
         int monthNum = sc.nextInt();
         System.out.println("请输入舱位级别:0 头等舱、1 经济舱");
         int seat = sc.nextInt();
-
+        //使用if嵌套对规则进行判断
         if (monthNum >= 5 && monthNum <= 10){
             if (seat == 0){
                 //需要使用（int）进行强制转换
